@@ -104,7 +104,11 @@ main {
   margin-left: 40px;
 }
 
-footer {
-
-  display: block;
+.rodape{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: gray;
+  padding: 30px;
 }
