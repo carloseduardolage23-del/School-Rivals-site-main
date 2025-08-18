@@ -62,11 +62,17 @@ nav a[aria-current='page'] {
   height: 100%;
 }
 
-.bodycentro img {
+.bodycentro > img {
   width: 500px;
   max-width: 90%;
   height: auto;
 }
+
+.bodycentro > button{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .container {
   display: flex;
   justify-content: center;
